@@ -12,7 +12,7 @@ Kindeditor for wordpress
 
 Because most users of this plug-in are Chinese people,following I use Chinese.
 
-kindeditor是一个简单高效，易于使用的编辑器，目前最新的版本是4.0beta，内置了google code prettify，可以简单快速的插入代码，更多内容[查看这里](http://www.panxianhai.com/kindeditor-for-wordpress.html)
+kindeditor 4.0是一个简单高效，易于使用的编辑器，目前最新的版本是4.0beta，内置了google code prettify，可以简单快速的插入代码，更多内容[查看这里](http://www.panxianhai.com/kindeditor-for-wordpress.html)
 
 == Installation ==
 
