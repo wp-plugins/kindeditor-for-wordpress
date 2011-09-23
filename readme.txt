@@ -12,32 +12,32 @@ Kindeditor for wordpress
 
 Because most users of this plug-in are Chinese people,following I use Chinese.
 
-kindeditorÊÇÒ»¸ö¼òµ¥¸ßĞ§£¬Ò×ÓÚÊ¹ÓÃµÄ±à¼­Æ÷£¬Ä¿Ç°×îĞÂµÄ°æ±¾ÊÇ4.0beta£¬ÄÚÖÃÁËgoogle code prettify£¬¿ÉÒÔ¼òµ¥¿ìËÙµÄ²åÈë´úÂë£¬¸ü¶àÄÚÈİ[²é¿´ÕâÀï](http://www.panxianhai.com/kindeditor-for-wordpress.html)
+kindeditoræ˜¯ä¸€ä¸ªç®€å•é«˜æ•ˆï¼Œæ˜“äºä½¿ç”¨çš„ç¼–è¾‘å™¨ï¼Œç›®å‰æœ€æ–°çš„ç‰ˆæœ¬æ˜¯4.0betaï¼Œå†…ç½®äº†google code prettifyï¼Œå¯ä»¥ç®€å•å¿«é€Ÿçš„æ’å…¥ä»£ç ï¼Œæ›´å¤šå†…å®¹[æŸ¥çœ‹è¿™é‡Œ](http://www.panxianhai.com/kindeditor-for-wordpress.html)
 
 == Installation ==
 
 
-1. ÉÏ´«kindeditor-for-wordpressÎÄ¼ş¼Ğµ½`/wp-content/plugins/`Ä¿Â¼
-2. ¼¤»î²å¼ş¼´¿ÉÊ¹ÓÃ£¬×¢ÒâÓ¦¹Ø±ÕÆäËûµÄ±à¼­Æ÷²å¼ş
+1. ä¸Šä¼ kindeditor-for-wordpressæ–‡ä»¶å¤¹åˆ°`/wp-content/plugins/`ç›®å½•
+2. æ¿€æ´»æ’ä»¶å³å¯ä½¿ç”¨ï¼Œæ³¨æ„åº”å…³é—­å…¶ä»–çš„ç¼–è¾‘å™¨æ’ä»¶
 
 == Frequently Asked Questions ==
 
-= µã»÷²é¿´¸ü¶à°´Å¥µÄÊ±ºòÎªÊ²Ã´Ã»ÓĞÄÚÈİ£¿ =
+= ç‚¹å‡»æŸ¥çœ‹æ›´å¤šæŒ‰é’®çš„æ—¶å€™ä¸ºä»€ä¹ˆæ²¡æœ‰å†…å®¹ï¼Ÿ =
 
-Ä¿Ç°Õâ¸ö¹¦ÄÜ»¹Ã»ÓĞÈ·¶¨Ò»¸öºÃµÄ½â¾ö·½°¸£¬ËùÒÔÖ»ÊÇÔÚ´úÂëÊÓÍ¼²åÈëÁË<!--more-->£¬¿ÉÊÓ»¯½çÃæÃ»ÓĞÈÎºÎÊä³ö¡£
+ç›®å‰è¿™ä¸ªåŠŸèƒ½è¿˜æ²¡æœ‰ç¡®å®šä¸€ä¸ªå¥½çš„è§£å†³æ–¹æ¡ˆï¼Œæ‰€ä»¥åªæ˜¯åœ¨ä»£ç è§†å›¾æ’å…¥äº†<!--more-->ï¼Œå¯è§†åŒ–ç•Œé¢æ²¡æœ‰ä»»ä½•è¾“å‡ºã€‚
 
 
 == Screenshots ==
 
-1. ±à¼­Æ÷ÊÓÍ¼
-2. ×ÖÊıÍ³¼Æ
-3. ÄÚÈİÒıÓÃ
-4. ²åÈë³ÌĞò´úÂë
+1. ç¼–è¾‘å™¨è§†å›¾
+2. å­—æ•°ç»Ÿè®¡
+3. å†…å®¹å¼•ç”¨
+4. æ’å…¥ç¨‹åºä»£ç 
 
 == Changelog ==
 
 = 1.0 =
-* ·¢²¼kindeditor-for-wordpress²å¼ş
+* å‘å¸ƒkindeditor-for-wordpressæ’ä»¶
 
 == Upgrade Notice ==
-ÎŞÉı¼¶ĞÅÏ¢
+æ— å‡çº§ä¿¡æ¯
