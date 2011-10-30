@@ -419,7 +419,7 @@
 	overflow: hidden;
 }
 .ke-toolbar-icon-url {
-	background-image: url(default.png);
+	background-image: url("default.gif");
 }
 .ke-toolbar .ke-outline {
 	border: 1px solid #F0F0EE;
