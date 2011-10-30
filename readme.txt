@@ -4,7 +4,6 @@ Donate link: http://www.panxianhai.com/donate
 Tags: editor, syntax highlighting
 Requires at least: 3.0
 Tested up to: 3.2.1
-Stable tag: 1.0.0
 
 Kindeditor for wordpress
 
@@ -36,7 +35,11 @@ kindeditor是一个简单高效，易于使用的编辑器，目前最新的版�
 
 == Changelog ==
 
-= 1.0 =
+= 1.1.0 =
+* 修正了IE下插入more标签需要在前面加入字符的问题
+* 更新kindeditor内核到4.0.1
+
+= 1.0 .0=
 * 发布kindeditor-for-wordpress插件
 
 == Upgrade Notice ==
