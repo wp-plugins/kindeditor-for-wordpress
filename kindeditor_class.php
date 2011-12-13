@@ -1,6 +1,6 @@
 <?php
 class kindeditor {
-	var $ke_version = "4.0beta";
+	var $ke_version = "4.0.4";
 	var $plugin_path = "";
 	
 	function kindeditor() 
@@ -85,7 +85,7 @@ class kindeditor {
     {
 		?>
 		<style type="text/css">
-			#quicktags { display: none; }
+			#ed_toolbar { display: none; }
 			.ke-container {border: none;!important}
 			.ke-icon-wpmore {
 				background-image: url(<?php echo $this->plugin_path;?>themes/default/default.gif);

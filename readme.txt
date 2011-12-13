@@ -3,8 +3,8 @@ Contributors: panxianhai
 Donate link: http://www.panxianhai.com/donate
 Tags: editor, syntax highlighting
 Requires at least: 3.0
-Tested up to: 3.2.1
-Stable tag: 1.1.2
+Tested up to: 3.3
+Stable tag: 1.1.3
 
 Kindeditor for wordpress
 
@@ -12,7 +12,7 @@ Kindeditor for wordpress
 
 Because most users of this plug-in are Chinese people,following I use Chinese.
 
-kindeditor是一个简单高效，易于使用的编辑器，目前最新的版本是4.0.2，内置了google code prettify，可以简单快速的插入代码，更多内容[查看这里](http://www.panxianhai.com/kindeditor-for-wordpress.html)
+kindeditor是一个简单高效，易于使用的编辑器，目前最新的版本是4.0.4，内置了google code prettify，可以简单快速的插入代码，更多内容[查看这里](http://www.panxianhai.com/kindeditor-for-wordpress.html)
 
 == Installation ==
 
@@ -36,6 +36,10 @@ kindeditor是一个简单高效，易于使用的编辑器，目前最新的版�
 
 == Changelog ==
 
+= 1.1.3 =
+* 修正了wordpress 3.3显示原来编辑器的问题
+* 更新kindeditor内核到4.0.4
+
 = 1.1.2 =
 * 更新kindeditor内核到4.0.2
 
@@ -46,7 +50,7 @@ kindeditor是一个简单高效，易于使用的编辑器，目前最新的版�
 * 修正了IE下插入more标签需要在前面加入字符的问题
 * 更新kindeditor内核到4.0.1
 
-= 1.0 .0=
+= 1.0.0=
 * 发布kindeditor-for-wordpress插件
 
 == Upgrade Notice ==
