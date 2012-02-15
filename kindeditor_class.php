@@ -1,6 +1,6 @@
 <?php
 class kindeditor {
-	var $ke_version = "4.0.4";
+	var $ke_version = "4.0.5";
 	var $plugin_path = "";
 	
 	function kindeditor() 
@@ -78,8 +78,21 @@ class kindeditor {
 	
 	function add_head_script()
 	{
-		
+        //wp_enqueue_script('jquery');
+	    wp_enqueue_script('prettify-js', $this->plugin_path .'plugins/code/prettify.js','','20110329');
+        ?>
+        <script type="text/javascript">
+             window.onload = function(){
+                 prettyPrint();
+             }
+        </script>
+        <?php
 	}
+
+    function add_head_style()
+    {
+        wp_enqueue_style('prettify-css', $this->plugin_path .'plugins/code/prettify.css','','20110329');
+    }
 	
 	function add_admin_head()
     {
