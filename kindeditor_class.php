@@ -38,9 +38,9 @@ class kindeditor {
 				'source', '|', 'undo', 'redo', '|', 'cut', 'copy', 'paste',
 				'plainpaste', 'wordpaste', '|', 'justifyleft', 'justifycenter', 'justifyright',
 				'justifyfull', 'insertorderedlist', 'insertunorderedlist', 'indent', 'outdent', 'subscript',
-				'superscript', 'clearhtml', 'quickformat', 'selectall', '|', 'fullscreen', 'about', '/',
+				'superscript', 'clearhtml', 'quickformat', 'selectall', '|', 'map', 'baidumap','fullscreen','about', '/',
 				'formatblock', 'fontname', 'fontsize', '|', 'forecolor', 'hilitecolor', 'bold',
-				'italic', 'underline', 'strikethrough', 'lineheight', 'removeformat', '|', 'image', 'multiimage','flash', 'media', 'table', 'hr', 'emoticons', 'map', 'code', 'blockquote', 'wpmore',
+				'italic', 'underline', 'strikethrough', 'lineheight', 'removeformat', '|', 'image', 'multiimage','flash', 'media', 'table', 'hr', 'emoticons', 'code', 'anchor', 'blockquote', 'wpmore',
 				'link', 'unlink'
 				],
 				afterChange : function() {
@@ -93,7 +93,7 @@ class kindeditor {
     function add_head_style()
     {
     	$type = get_option('ke_highlight_type');
-        wp_enqueue_style('prettify-css', $this->plugin_path .'includes/code/' . $type . '.css','','20110329');
+        wp_enqueue_style('prettify-css', $this->plugin_path .'plugins/code/' . $type . '.css','','20110329');
     }
 	
 	function add_admin_head()
