@@ -16,12 +16,16 @@ class kindeditor {
 	{
 		global $current_user;
 		update_user_option($current_user->id, 'rich_editing', 'true', true);
+        delete_option('ke_auto_highlight');
+        delete_option('ke_highlight_type');
 	}
 
 	function activate()
 	{
 		global $current_user;
 		update_user_option($current_user->id, 'rich_editing', 'false', true);
+        add_option('ke_auto_highlight', '');
+        add_option('ke_highlight_type', 'prettify');
 	}
 	
 	function load_kindeditor()
@@ -35,7 +39,7 @@ class kindeditor {
 				uploadJson : '<?php echo $this->plugin_path ?>php/upload_json.php',
 				fileManagerJson : '<?php echo $this->plugin_path ?>php/file_manager_json.php',
 				items : [
-				'source', '|', 'undo', 'redo', '|', 'cut', 'copy', 'paste',
+				'source', '|', 'undo', 'redo', '|', 'template', 'cut', 'copy', 'paste',
 				'plainpaste', 'wordpaste', '|', 'justifyleft', 'justifycenter', 'justifyright',
 				'justifyfull', 'insertorderedlist', 'insertunorderedlist', 'indent', 'outdent', 'subscript',
 				'superscript', 'clearhtml', 'quickformat', 'selectall', '|', 'map', 'baidumap','fullscreen','about', '/',
