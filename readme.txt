@@ -4,7 +4,7 @@ Donate link: http://weibo.com/hevinpan
 Tags: editor, syntax highlighting
 Requires at least: 3.0
 Tested up to: 4.1.1
-Stable tag: 1.4.1
+Stable tag: 1.4.2
 
 Kindeditor for wordpress
 
@@ -12,7 +12,7 @@ Kindeditor for wordpress
 
 Because most users of this plug-in are Chinese people,following I use Chinese.
 
-kindeditor是一个简单高效，易于使用的编辑器。
+kindeditor是一个简单高效，易于使用的编辑器，自带代码高亮。
 
 == Installation ==
 
@@ -27,7 +27,7 @@ kindeditor是一个简单高效，易于使用的编辑器。
 
 = 如何开启代码高亮？ =
 
-1.4版本取消了内置的代码高亮。
+配置项中开启代码高亮。
 
 == Screenshots ==
 
@@ -37,6 +37,10 @@ kindeditor是一个简单高效，易于使用的编辑器。
 4. 插入程序代码
 
 == Changelog ==
+
+= 1.4.2 =
+* 在1.3.7版本上优化了若干项，重新上传了，因为之前的代码高亮依赖性比较大
+* 不会增加水印功能了，使用水印插件的朋友请使用wordpress的自带上传
 
 = 1.4.1 =
 * 修正了按钮无法显示的问题
