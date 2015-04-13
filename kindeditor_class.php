@@ -1,13 +1,13 @@
 <?php
 class kindeditor {
-	var $plugin_path = "";
+	public $plugin_path = "";
 	
-	function __construct()
+	public function __construct()
 	{
 		$this->plugin_path = plugins_url('/',__FILE__);
 	}
 	
-	function deactivate()
+	public function deactivate()
 	{
 		global $current_user;
 		update_user_option($current_user->ID, 'rich_editing', 'true', true);
@@ -15,7 +15,7 @@ class kindeditor {
         delete_option('ke_highlight_type');
 	}
 
-	function activate()
+	public function activate()
 	{
 		global $current_user;
 		update_user_option($current_user->ID, 'rich_editing', 'false', true);
@@ -23,7 +23,7 @@ class kindeditor {
         add_option('ke_highlight_type', 'prettify');
 	}
 	
-	function load_kindeditor()
+	public function load_kindeditor()
 	{
 		?>
 		<script type="text/javascript">
@@ -37,7 +37,7 @@ class kindeditor {
 				'source', '|', 'undo', 'redo', '|', 'template', 'cut', 'copy', 'paste',
 				'plainpaste', 'wordpaste', '|', 'justifyleft', 'justifycenter', 'justifyright',
 				'justifyfull', 'insertorderedlist', 'insertunorderedlist', 'indent', 'outdent', 'subscript',
-				'superscript', 'clearhtml', 'quickformat', 'selectall', '|', 'map', 'baidumap','fullscreen','about', '/',
+				'superscript', 'clearhtml', 'quickformat', 'selectall', '|', 'map', 'baidumap','fullscreen', '/',
 				'formatblock', 'fontname', 'fontsize', '|', 'forecolor', 'hilitecolor', 'bold',
 				'italic', 'underline', 'strikethrough', 'lineheight', 'removeformat', '|', 'image', 'multiimage','flash', 'media', 'table', 'hr', 'emoticons', 'code', 'anchor', 'blockquote', 'wpmore',
 				'link', 'unlink'
@@ -54,13 +54,13 @@ class kindeditor {
 		<?php
 	}
 	
-	function user_personalopts_update()
+	public function user_personalopts_update()
     {
         global $current_user;
         update_user_option($current_user->ID, 'rich_editing', 'false', true);
     }
 	
-	function add_admin_js()
+	public function add_admin_js()
 	{
 		wp_deregister_script(array('media-upload')); 
 		wp_enqueue_script('media-upload', $this->plugin_path .'media-upload.js', array('thickbox'), '20110922'); 
@@ -69,14 +69,14 @@ class kindeditor {
 		wp_enqueue_script('plugins', $this->plugin_path . 'plugins.js');
 	}
 	
-	function add_admin_style()
+	public function add_admin_style()
 	{	
 		$ke_style = plugins_url('themes/default/default.css', __FILE__);
 		wp_register_style('default', $ke_style);
 		wp_enqueue_style('default');
 	}
 	
-	function add_head_script()
+	public function add_head_script()
 	{
         //wp_enqueue_script('jquery');
 	    wp_enqueue_script('prettify-js', $this->plugin_path .'plugins/code/prettify.js','','20110329');
@@ -89,17 +89,19 @@ class kindeditor {
         <?php
 	}
 
-    function add_head_style()
+    public function add_head_style()
     {
     	$type = get_option('ke_highlight_type');
         wp_enqueue_style('prettify-css', $this->plugin_path .'plugins/code/' . $type . '.css','','20110329');
     }
 	
-	function add_admin_head()
+	public function add_admin_head()
     {
 		?>
 		<style type="text/css">
-			#ed_toolbar { display: none; }
+			#ed_toolbar,
+            #content-tmce,
+            #content-html { display: none; }
 			.ke-container {border: none;!important}
 			.ke-icon-wpmore {
 				background-image: url(<?php echo $this->plugin_path;?>themes/default/default.png);
